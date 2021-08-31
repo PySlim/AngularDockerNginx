@@ -5,4 +5,4 @@ services:
     container_name: DockerAngular
     build: .
     ports:
-		  - "4500:80"
+		    - "4500:80"
