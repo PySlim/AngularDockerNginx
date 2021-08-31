@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   angular-service:
-		container_name: DockerAngular
-	  build: .
-	  ports:
-			- "4500:80"
+    conntainer_name: DockerAngular
+    build: .
+    ports:
+		  - "4500:80"
