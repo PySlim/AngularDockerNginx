@@ -17,6 +17,6 @@ FROM nginx:alpine
 
 
 
-COPY --from=node /app/dis/dockerangular /usr/share/nginx/html
+COPY --from=node /app/dist/dockerangular /usr/share/nginx/html
 
 COPY ./nginx-custom.conf /etc/nginx/conf.d/default.conf
